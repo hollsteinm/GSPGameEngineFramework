@@ -1,0 +1,8 @@
+*.suo
+*.sdf
+TestContent.txt
+UpgradeLog.XML
+/_UpgradeReport_Files/*
+/Debug/*
+/ipch/*
+ClassDiagram1.png

@@ -1,0 +1,44 @@
+***FIX***
+(Terrain.cpp)
+Terrain rendering with heightmaps
+-Indices not being fully filled leading to partial mesh
+-Issues with calculating the tangent and binormal that cause the grid to fail with textures
+-Textures showing up on the wrong side of the mesh in regards to normal
+-I am just going to do everything in the terrain but I really didnt want to...
+[SOLVED]: Issue was that the index buffers were not being set to the correct amount.
+
+(Level.cpp)
+See what is up with 3 terrains being created when level loads.
+-Look into the file traversal for the XML file.
+**********
+
+***TODO***
+(World.cpp)
+TODO: make a method that traverses the file directory and collects all 
+of the level data to be parsed.
+
+
+
+(World.cpp)
+TODO: logic for loading files containing all game information from editor
+
+(TerrainShader.fx)
+TODO: Write terrain sahder file with 3 textures to blend
+
+(GameEngine)
+TODO: create point, spot, and directional lights
+TODO: all shaders take multiple lights
+	-Deferred Lighting = 5;
+	-Forward Pass rendering = 2;
+	-Pre-Pass lighting = 10;
+
+TODO: scene graphs
+TODO: contact resolution
+TODO: screen space texture renderer
+TODO: screen space text renderer
+TODO: bone heiracrchy
+TODO: joints
+TODO: .DAE importer
+TODO: animation system
+TODO: rigidbody physics
+TODO: sound API wrapper (FMOD.dll)

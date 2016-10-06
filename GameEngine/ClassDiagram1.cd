@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Camera">
+    <Position X="22.5" Y="0.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>ACRCgCAAAAEAAAAARAREAQAAAAEAAgECAQQAAAAAAQA=</HashCode>
+      <FileName>Camera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionDebugShader">
+    <Position X="9" Y="12.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CollisionDebugShader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DefaultShader">
+    <Position X="11.75" Y="12.5" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAEAAAACAAAAgAAAAADAIACAEgACAVAIAAA=</HashCode>
+      <FileName>DefaultShader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDXManager">
+    <Position X="24" Y="13" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>EgCAgCBACACAAAAAAAABAUAAAEAhAAAABCAKACAAAAA=</HashCode>
+      <FileName>DXManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Light">
+    <Position X="39" Y="8.25" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgABQAAAACAAAAAGgAAAQAAAIBAAAQAgAAIAgA=</HashCode>
+      <FileName>Light.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Material">
+    <Position X="32.5" Y="2.75" Width="5.25" />
+    <TypeIdentifier>
+      <HashCode>AEAABAAAKACEAAAAAAAAgABAAABAAAAAAgAAAEAAAAA=</HashCode>
+      <FileName>Material.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mesh">
+    <Position X="38.5" Y="2" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAIAAAUBAgAAAAIAAAABCAAAgAAIgQIAACAAAAg=</HashCode>
+      <FileName>Mesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shader">
+    <Position X="9.25" Y="7.75" Width="6.75" />
+    <TypeIdentifier>
+      <HashCode>QCgAAAAAAAAAAgAAAAAAAAAAGAAAQAIABCACAAiAAQA=</HashCode>
+      <FileName>Shader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Texture">
+    <Position X="27.25" Y="4.25" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgABAAAAAAAAQAAAAAIAAAAIAAAgAAAA=</HashCode>
+      <FileName>Texture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FPSPlayer">
+    <Position X="0.5" Y="7.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAgAAAAAAAIAAAEQAAAAAAAIAAIAAAAFAAABAAAAA=</HashCode>
+      <FileName>FPSPlayer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameObject">
+    <Position X="13" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ABQAgAAAAAAAAAAAAAAAAAAAAAAAAAAAABgEABIAAAA=</HashCode>
+      <FileName>GameObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Movement">
+    <Position X="4" Y="2.75" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAIIAABQAAAAAABAAAAEACCAAgCAECAAAAAAAAggA=</HashCode>
+      <FileName>Movement.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Prop">
+    <Position X="4.75" Y="7.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgAAAAAAAAAAABAAAAAAAAAAAIAABABAAABAAAAA=</HashCode>
+      <FileName>Prop.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CState">
+    <Position X="35.25" Y="15.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAACAAAAAIAAAAAAAAAAAAAAAAAACAAAAAAAAQ=</HashCode>
+      <FileName>State.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="World">
+    <Position X="39" Y="12.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAgAAABBAAAAgAAAAAAAAAAAISQAAAIBAAAQAAAAI=</HashCode>
+      <FileName>World.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Controller">
+    <Position X="9.5" Y="3.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AHAAAAAAAQAgAAAAAIABAAAAAAAAAIEAAAEEAAAAAAA=</HashCode>
+      <FileName>Controller.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InputManager">
+    <Position X="35" Y="8.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>kHAAAEAAAABAABBAAIgBAQAAAACAAIUAAAkGIBAAAgA=</HashCode>
+      <FileName>InputManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RayCollider">
+    <Position X="29" Y="12.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAABAAgAAAgAwAgAAAAAAAAAAAAAAAAAAgAAAAAAACA=</HashCode>
+      <FileName>Collision.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SphereCollider">
+    <Position X="18" Y="14.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAABIAIEAAAAAAACCCAACIAAAAAAAAA=</HashCode>
+      <FileName>Collision.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AABBCollider">
+    <Position X="15.75" Y="3" Width="6" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAgQAAAABAAAAIEAAAgAAACACAAAAAAAAACAAA=</HashCode>
+      <FileName>Collision.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Contacts">
+    <Position X="29" Y="8.25" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAQAAgBABAAAAEAAAAAEAAAAQIAAAAAAAAAAAA=</HashCode>
+      <FileName>Contacts.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Physics">
+    <Position X="23.75" Y="8.25" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>BARAgAAACAAABAAAAAIAAAAAAAAAAAAAAAhAAARAAAA=</HashCode>
+      <FileName>Physics.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Octree">
+    <Position X="22" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Octree.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTimer">
+    <Position X="31.75" Y="16.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAASAAAABAAAAKAAAAAAAAAAAAABQAAACAAAA=</HashCode>
+      <FileName>Timer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CWin">
+    <Position X="18" Y="8.25" Width="5" />
+    <TypeIdentifier>
+      <HashCode>kACAAAACCAIAAAAAAgAAAQAAAEAAAABAUAggAgAIQCA=</HashCode>
+      <FileName>Win.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="DXVertex">
+    <Position X="29" Y="15.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAgAAAAAAAAgAAAAAgAAAgA=</HashCode>
+      <FileName>DX10Util.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DXIndex">
+    <Position X="32" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC+YQAAAAAAAAA=</HashCode>
+      <FileName>DX10Util.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
